@@ -90,6 +90,8 @@ while continue_option =='y':
     a = float(input("\n"))
     b = float(input("\n")) #These need to be floats in order for this equation to work. 
     c = float(input("\n"))
+    # a return statement from an input statement is a string
+    # These inputs will all take an input, but because of the \n, the inputs will all be on a new line
 
     x1 = None
     x2 = None
